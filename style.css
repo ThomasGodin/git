@@ -1,4 +1,7 @@
 body {
-  background-color: 37;
+  background-color: #252525;
+  height: 100vw;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
