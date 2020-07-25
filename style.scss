@@ -4,3 +4,19 @@ body {
     max-width: 1500px;
     margin: 0 auto;
 }
+.btn {
+    height: 50px;
+    width: 150px;
+    background-color: yellowgreen;
+    font-size: 28px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover {
+        background-color: darken(yellowgreen, $amount: 30%);
+        color: white;
+    }
+}
